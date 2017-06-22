@@ -7,6 +7,7 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
 RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     nodejs \
+    openssh-client \
     libcurl4-gnutls-dev \
     libicu-dev \
     libmcrypt-dev \
